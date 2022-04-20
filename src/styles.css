@@ -1,0 +1,20 @@
+.contacts {
+    scroll-snap-type: y mandatory;
+    scroll-padding: 18px;
+    overflow-y: scroll;
+    height: 300px;
+    position: relative;
+}
+
+.contact {
+    scroll-snap-align: start;
+}
+
+.stickyHeader {
+    position: sticky;
+    top: 0;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
